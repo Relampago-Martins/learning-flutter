@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:primeiro_projeto/widgets/side-bar.dart';
+import 'package:primeiro_projeto/widgets/side_bar.dart';
 
-class ThirdPage extends StatelessWidget {
-  const ThirdPage({super.key});
+class ConfigsPage extends StatelessWidget {
+  const ConfigsPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +13,7 @@ class ThirdPage extends StatelessWidget {
       ),
       body: Row(
         children: [
-          const SideBar(selectedIndex: 2),
+          const SideBar(selectedIndex: 3),
           const VerticalDivider(
             thickness: 1,
             width: 1,

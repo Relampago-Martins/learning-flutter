@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:primeiro_projeto/widgets/side-bar.dart';
+import 'package:primeiro_projeto/widgets/side_bar.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class InicioPage extends StatefulWidget {
+  const InicioPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<InicioPage> createState() => _InicioPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _InicioPageState extends State<InicioPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

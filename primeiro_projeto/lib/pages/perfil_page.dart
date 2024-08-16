@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:primeiro_projeto/widgets/side-bar.dart';
+import 'package:primeiro_projeto/widgets/perfil_form.dart';
+import 'package:primeiro_projeto/widgets/side_bar.dart';
 
-class SecondPage extends StatelessWidget {
-  const SecondPage({super.key});
+class PerfilPage extends StatelessWidget {
+  const PerfilPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +14,7 @@ class SecondPage extends StatelessWidget {
       ),
       body: Row(
         children: [
-          const SideBar(selectedIndex: 1),
+          const SideBar(selectedIndex: 2),
           const VerticalDivider(
             thickness: 1,
             width: 1,
@@ -21,7 +22,9 @@ class SecondPage extends StatelessWidget {
           Expanded(
             child: Container(
               alignment: Alignment.center,
-              child: const Text('Perfil'),
+              child: const PerfilForm(
+                initialUsername: 'usuário',
+              ),
             ),
           )
         ],
